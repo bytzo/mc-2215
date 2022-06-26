@@ -16,7 +16,7 @@ import org.spongepowered.asm.mixin.injection.Redirect;
 
 import net.minecraft.server.dedicated.Settings;
 
-@Mixin(Settings.class)
+@Mixin(value = Settings.class, priority = 2000)
 public class SettingsMixin {
 	@Unique
 	private static final Charset CHARSET = StandardCharsets.UTF_8;
