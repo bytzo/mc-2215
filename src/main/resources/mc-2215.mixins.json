@@ -1,0 +1,6 @@
+{
+	"package": "net.bytzo.mc_2215.mixins",
+	"server": [
+		"SettingsMixin"
+	]
+}

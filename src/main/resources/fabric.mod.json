@@ -1,0 +1,10 @@
+{
+	"schemaVersion": 1,
+	"id": "mc-2215",
+	"version": "0.1",
+	"environment": "server",
+	"mixins": [
+		"mc-2215.mixins.json"
+	],
+	"license": "MIT"
+}
