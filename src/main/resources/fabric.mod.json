@@ -6,5 +6,8 @@
 	"mixins": [
 		"mc-2215.mixins.json"
 	],
+	"depends": {
+		"minecraft": "<1.20-beta.1"
+	},
 	"license": "MIT"
 }
